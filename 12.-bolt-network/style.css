@@ -1,0 +1,122 @@
+html, body {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.container {
+  max-width: 970px;
+  margin: 0 auto;
+}
+/* * {
+border: red 1px dashed;
+} */
+.supporting {
+  background-image: url(s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png);
+  background-size: 141px 142px;
+}
+/* Jumbotron---------------------------- */
+.jumbotron {
+  color: #0393FF;
+  background-color: #000000;
+}
+.jumbotron  li{
+  display: inline;
+  padding:10px 20px;
+}
+.header {
+  color: #fff;
+}
+.login {
+  position: relative;
+  bottom: -2px;
+}
+.btn {
+  color:#0393FF;
+  background-color:#000000;
+  padding: 8px 20px;
+  border-color: #0393FF;
+  border-radius: 2px;
+}
+.btn:hover {
+  background-color: #0393FF;
+  color: white;
+}
+/* MAIN-------------------------------- */
+.main {
+  color:#fff;
+  text-align: center;
+}
+.main h1 {
+  padding: 50px 0;
+}
+.main input {
+  background-color: black;
+  border: black;
+  padding: 0 60px 0 0;
+}
+.main btn {
+}
+/* jumbotron--------------------------- */
+.jumbotron {
+  color: white;
+  margin: 0;
+}
+.form-group {
+  border-bottom: 1px solid #0393FF;
+}
+.form-inline {
+  padding: 50px 0;
+}
+/* supporting --------------------------- */
+.supporting {
+  color: white;
+  background-color:#141414;
+  margin-top:0px;
+}
+.supporting h2 {
+  color:#0393FF;
+}
+/* FEATURE--------------------------------*/
+.feature {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg");
+  color: white;
+  background-size: cover;
+  background-position: 100% 50%;
+  padding: 130px 0;
+}
+.feature h1 {
+  color:#0393FF;
+}
+/* FOOTER--------------------------*/
+.footer {
+  Background-color: black;
+  color: #0393FF;
+  padding: 100px 0;
+}
+.footer h3 {
+  text-align: left;
+  color: white;
+  font-size: 18px;
+}
+.footer ul {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.footer li {
+  list-style-type: none;
+}
+/* Query ---------------------------*/
+@media (max-width: 500px) {
+  .footer ul{
+  }
+  .jumbotron .header .row .pull-right ul {
+    padding: 40px 0px 0px 0px;
+    width: 100%;
+  }
+  .row .col-md-10 > .pull-right {
+    float: none !important;
+  }
+}

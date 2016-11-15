@@ -1,0 +1,128 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+/*HEADER------------------------------*/
+.header {
+  background-color: black;
+  color:white;
+}
+.header a img {
+  width: 200px;
+  padding: 10px 0;
+}
+.search-form {
+  float: right;
+  padding: 20px 0 20px 0;
+  background-color: black;
+}
+.search-form input {
+  color: white;
+  background-color: black;
+  width: 300px;
+  border-bottom: 1px solid white;
+}
+.search-form .search-btn {
+  background-color: black;
+  border-bottom: 1px solid #1A77FF;
+}
+.search-form input:hover, .search-form input:focus {
+  border-bottom: 1px solid #1a77ff;
+  outline: 0px;
+}
+
+/*MENU--------------------------------*/
+.full-width {
+  background-color: #152230;
+}
+.menu {
+  text-align: center;
+}
+.navbar-nav .btn{
+  background-color: #152230;
+}
+.navbar-nav .btn:hover{
+  background-color: red;
+}
+.nav>li>a:hover,.nav>li>a:focus {
+  text-decoration: none;
+  background-color: #1a77ff;
+}
+/*MAIN--------------------------------*/
+.main {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/newsroom/bass-bg.jpg");
+  background-size: cover;
+  background-position: 100% 50%;
+  height: 400px;
+}
+.main .fecha {
+  margin: 40px  0 0 0 ;
+  font-size: 15px;
+}
+.main h2 span {
+  border-bottom: 5px solid #1A77FF;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.main .soporte {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 30px  0 0 0 ;
+}
+/*supporting---------------------------*/
+.supporting {
+  color: #152230;
+  padding: 50px 0 50px 0 ;
+  background-color: #F2F2F2 ;
+}
+.supporting .top {
+  padding-top: 20px;
+}
+.supporting h4 span {
+  border-bottom: 2px solid #127AFF;
+}
+.supporting .sidebar {
+  background-color: #152230;
+  color: white;
+}
+.supporting .col-md-8 {
+  padding: 25px;
+  background-color: white;
+}
+.supporting .col-md-4 {
+  padding: 25px;
+}
+.supporting .col-md-12 {
+  text-align: center;
+  margin: 0 auto;
+}
+.supporting .col-md-12 img {
+  margin: 50px auto 0 auto;
+  padding: 0;
+  width: 100%;
+}
+.supporting .row .col-md-12 {
+  margin: 0;
+  padding: 0;
+}
+/*FOOTER---------------------------*/
+.footer {
+  background-color: black;
+}
+.footer ul {
+  margin: 0;
+  padding:10px 0 0 0;
+}
+.footer li {
+  float: left;
+  list-style-type: none;
+  margin: 0 20px  0 0;
+}

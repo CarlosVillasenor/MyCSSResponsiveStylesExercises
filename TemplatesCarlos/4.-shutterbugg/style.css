@@ -1,0 +1,104 @@
+.container {
+  max-width: 928px;
+}
+/* * {
+border: 1px dashed red;
+} */
+
+h1, h2, p, a {
+  font-family: 'Helvetica Neue Thin', 'HelveticaNeue-Thin', 'helvetica neue', helvetica, arial, 'lucida grande', sans-serif;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+a {
+  font-size:18px;
+  font-weight: 200;
+}
+/*------ <!-- The main section -->---*/
+.main {
+  height: 550px;
+  padding-top: 55px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/shutterbugg/intro.jpg");
+
+}
+
+.main p {
+  font-size: 26px;
+  font-weight: 200;
+  margin-bottom: 40px;
+}
+.btn {
+  background-color: rgba(238,68,95,0.9);
+  color: white;
+  font-weight: 500;
+  font-size: 1.3em;
+  padding: 5px 23px;
+}
+.btn:hover{
+  background-color: white;
+  color:rgba(238,68,95,0.9);
+  transition-duration: .4s;
+  box-shadow: 3px 3px 10px 0px  #888888;
+}
+/* ----<!-- The first section div -->----*/
+.section h1{
+  font-size:60px;
+}
+.section p {
+  font-size:26px;
+}
+.img {
+  float: left;
+}
+
+.section .row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #dbdbdb;
+}
+/* <!----- The second section div ----->*/
+.img2 {
+  float: right;
+}
+.store {
+  text-align: center;
+  border-bottom: 0px;
+  padding-bottom:100px
+}
+/* <!----- The Third section div ----->*/
+.img3 {
+  float: left;
+}
+.footer {
+  border-top: 1px solid #dbdbdb;
+  background-color: #f3f3f3;
+  padding: 20px 0px 80px 0px;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.footer h1 {
+  color: #555555;
+  font-weight: 600;
+  font-size:20px;
+}
+
+.footer li {
+  color: #999;
+  font-weight: 600;
+  font-size:15px;
+}
+
+@media (max-width: 500px) {
+  .col-md-6 img {
+    padding: 50px;
+    width: 100%;
+  }
+}

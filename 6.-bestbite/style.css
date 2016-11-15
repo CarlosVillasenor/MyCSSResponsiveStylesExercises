@@ -1,0 +1,130 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arvo', serif;
+  font-size: 16px;
+}
+/* * {
+  border: green 1px solid;
+} */
+
+.container {
+  padding: 0 10px;
+  max-width: 940px;
+  margin: 0 auto;
+}
+.nav {
+  margin: 0;
+  padding: 20px 0;
+}
+.nav-pills {
+  padding: 40px 0px  ;
+  float: right;
+}
+
+/* Header */
+.header {
+
+}
+.nav-pills li a {
+  color: #d8192f;
+}
+.nav-pills li.active a,
+.nav-pills li a:hover,
+.section .btn:hover {
+  box-shadow:0 2px 4px rgba(0,0,0,.5);
+  background-color:rgba(216,25,47,1);
+  color:#fff;
+}
+
+.nav-pills li a {
+  border: 1px solid rgba(216,25,47,1);
+}
+
+
+/* Jumbotron */
+.jumbotron {
+  height: 500px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/bestbite/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main {
+  color: white;
+  text-align: right;
+  padding: 40px 0;
+}
+
+/* Banner */
+.banner, .supporting {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.banner {
+  background-color:#36343f;
+  height:180px;
+  color: #fff;
+}
+
+.learn {
+  background-color: rgba(216,25,47,1);
+  border: 1px solid rgba(216,25,47,1);
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 6px 15px;
+  color: white;
+}
+.learn:hover {
+  background-color: white;
+  box-shadow: 3px 3px 10px 0px #888888;
+  color: red;
+}
+/* Contributions */
+.foods {
+  color: rgba(216,25,47,1);
+}
+.section {
+  text-align: center;
+  padding-bottom: 60px;
+}
+.foods ul {
+  padding: 20px 10px;
+}
+.foods li {
+  list-style-type: none;
+  color: black;
+}
+.page-header {
+  padding-top: 20px;
+}
+/* footer */
+.footer {
+  font-size: 12px;
+}
+.footer a {
+  color:  rgba(216,25,47,1);
+}
+/* Media Queries */
+@media (max-width: 680px) {
+  .header h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .nav {
+    float: none;
+    margin: 0 auto;
+  }
+  .banner {
+    height: 220px;
+  }
+  .footer {
+    padding: 10px;
+  }
+
+  .nav-pills li:first-child a  {
+    margin-left: 0;
+  }
+}

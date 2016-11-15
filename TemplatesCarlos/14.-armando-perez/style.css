@@ -1,0 +1,71 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/armando-perez/brand.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.container {
+  max-width:1080px;
+  margin:  0 auto;
+}
+/* * {
+  border: 1px dashed black;
+} */ 
+/* CENTER col-md CLASS-----------*/
+.center {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* HEADER -----------------------*/
+.col-md-4 h2{
+  color: white;
+  text-align: left;
+}
+.pull-right  ul {
+  text-align: center;
+}
+.pull-right .nav-pills {
+  margin: 0 auto;
+}
+.pull-right .nav-pills a{
+  color: #F01251;
+  width: 100px;
+}
+.pull-right  .nav-pills .active a {
+  background-color:#F01251;
+}
+.pull-right .nav-pills .active a:hover {
+  background-color:#428BCA;
+}
+.pull-right  {
+  padding: 18px 0px;
+}
+/* MAIN--------------------------*/
+.main .container .row .col-md-4 img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 10px 0;
+}
+/* FOOTER------------------------*/
+
+.footer .container .row .col-md-3 ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 0px 10px 0 0;
+}
+.footer .container .row .col-md-3 ul  {
+  text-align: left;
+}
+.pull-right li {
+  list-style-type: none;
+}
+
+/* Query ---------------------------*/
+@media (max-width: 500px) {
+  .pull-right {
+    float:none !important;
+  }
+}
